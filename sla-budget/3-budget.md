@@ -21,14 +21,14 @@ Abschreibung Software        CHF 2'000.-
 
 Service                 Preis (jährlich)
 --------               -----------------
-Desktop                     CHF 80'000.-
-Datensicherung              CHF 70'000.-
-E-Mail                      CHF 20'000.-
-Drucken                     CHF 25'000.-
-Dateiaustausch              CHF 10'000.-
-Telefonie                   CHF 15'000.-
-Büroanwendungen             CHF 20'000.-
+Desktop                     CHF 90'000.-
+Datensicherung              CHF 80'000.-
+E-Mail                      CHF 35'000.-
+Drucken                     CHF 35'000.-
+Dateiaustausch              CHF 25'000.-
+Telefonie                   CHF 25'000.-
+Büroanwendungen             CHF 30'000.-
 Web-Auftritt                CHF 80'000.-
 Helpdesk                    CHF 40'000.-
-Schulung                    CHF 30'000.-
+Schulung                    CHF 40'000.-
 **Total**              **CHF 480'000.-**
