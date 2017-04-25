@@ -32,4 +32,4 @@ Service-Klassen:
     - Performance-Messung: monatlich
         - Anzahl bearbeitete Tickets
     - Verfügbarkeits-Messung: täglich
-        - falls es einen ganzen Tag keine Anrufe gibt: Testanruf per Handy
+        - falls es einen ganzen Tag keine Anrufe gibt: Testanruf
