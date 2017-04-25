@@ -2,7 +2,7 @@
 
 # Usage: md2pdf [input] [title]
 
-output="sla-budget.pdf"
+output="sla-budget_arnold-bucher.pdf"
 title="$2"
 
 pandoc -S -s -N \
