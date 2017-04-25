@@ -2,7 +2,7 @@
 
 ## Web-Auftritt
 
-Betreiben des Web-Auftritts:
+Betreiben des Web-Auftritts: CHF 80'000.-
 
 - Online-Shop
     - Anbindung an ERP-System
@@ -11,7 +11,7 @@ Betreiben des Web-Auftritts:
 
 ## Helpdesk
 
-Betreiben des betriebsinternen Helpdesks:
+Betreiben des betriebsinternen Helpdesks: CHF 40'000.-
 
 - Gespräche aufzeichnen
 - Helpdesk-Anfragen bearbeiten
