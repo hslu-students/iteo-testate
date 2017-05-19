@@ -15,7 +15,7 @@
 <header>
 <h1 class="title">Availability- und Capacity-Management</h1>
 <p class="author">Lukas Arnold, Patrick Bucher</p>
-<p class="date">18.05.2017</p>
+<p class="date">19.05.2017</p>
 </header>
 <h1 id="availability-management"><span class="header-section-number">1</span> Availability Management</h1>
 <h2 id="ziele"><span class="header-section-number">1.1</span> Ziele</h2>
@@ -102,12 +102,85 @@
 </ul></li>
 </ul>
 <h1 id="capacity-management"><span class="header-section-number">2</span> Capacity Management</h1>
-<p>TODO: Lukas</p>
 <h2 id="ziele-1"><span class="header-section-number">2.1</span> Ziele</h2>
+<ul>
+<li>Die richtige <em>Kapazität</em> zur richtigen <em>Zeit</em> bereitstellen.</li>
+<li>Dabei aktuelle und zukünftige <em>Anforderungen</em> beachten.</li>
+<li>Dabei muss vorallem auf die <em>Wirtschaftlichkeit</em> geachtete werden.</li>
+</ul>
 <h2 id="begriffe-1"><span class="header-section-number">2.2</span> Begriffe</h2>
+<ul>
+<li>Das <em>Capacity Management Information System (CMIS)</em> enthält die folgenden Daten:
+<ul>
+<li>Anforderungen des Business</li>
+<li>Informationen aus dem Demand Management (Bedarf)</li>
+<li>Ergebnisse des Monitoring von Auslastung und Performance</li>
+<li>Informationen zu aktuellen Infrastruktur</li>
+<li>Technologieinformationen</li>
+</ul></li>
+<li>Der <em>Capacity-Plan</em> …
+<ul>
+<li>dient als Planungsgrundlage</li>
+<li>enthält Informationen zu aktuellen Auslastung</li>
+<li>besteht aus Optimierungsansätze, Kostenpläne und Empfehlungen</li>
+</ul></li>
+</ul>
 <h2 id="aktivitäten-1"><span class="header-section-number">2.3</span> Aktivitäten</h2>
+<ul>
+<li>Die <em>Planung der Ressourcen</em> umfasst folgende Aufgaben:
+<ul>
+<li>Bereitstellung und Pflege des Capacity-Plans</li>
+<li>Unterstützung der Serviceorganisation bezüglich Kapazität und Performance</li>
+<li>Management der Kapazität und Performance entsprechend der Geschäftsanforderungen</li>
+<li>Unterstützung der Diagnose und Beseitigung kapazitätsbedingter Incidents</li>
+<li>Bewertung der Auswirkung von Changes auf den Capacity-Plan</li>
+<li>Identifizierung proaktiver Maßnahmen zur Performanceverbesserung</li>
+<li>Anforderungen an die Kapazität im CMIS dokumentiert</li>
+<li>Forecasts bezüglich Performance-Bedarf erstellen</li>
+</ul></li>
+<li>Der <em>Zyklus</em> des Capacity Management bestehen aus den folgenden vier Hauptaktivitäten:
+<ul>
+<li><em>Monitoring</em> der aktuellen <em>Auslastung</em> und Performance-Daten</li>
+<li><em>Analyse</em> der gesammelten Informationen in Bezug zu <em>Zielvorgaben</em> aus SLA und SLR</li>
+<li><em>Identifizierung</em> möglicher <em>Massnahmen</em> zur Optimierung</li>
+<li><em>Implementierung</em> der identifizierten <em>Optimierungsmaßnahmen</em></li>
+</ul></li>
+<li>Die Aktivitäten gliedern sich in <em>drei Subprozesse</em>:
+<ul>
+<li><em>Business Capacity Management</em> befasst sich mit der Identifikation der Geschäftsanforderungen und deren Übersetzung in konkrete Anforderungen an die IT-Services und die Infrastruktur.</li>
+<li><em>Service Capacity Management</em> betrachtet die End-to-End-Service Performance und ist verantwortlich für das Management und die Steuerung der Service Performance sowie für Prognosen bezüglich zukünftiger Veränderungen.</li>
+<li><em>Component Capacity Management</em> ist verantwortlich für Monitoring und Messung der Auslastung und Kapazität von IT-Komponenten sowie deren Management.</li>
+</ul></li>
+</ul>
 <h2 id="rollen-1"><span class="header-section-number">2.4</span> Rollen</h2>
+<p>Der <em>Capacity Manager</em> trägt golgende Verantwortungen:</p>
+<ul>
+<li>Sicherstellen der Kapazität entsprechend der Geschäftsanforderungen</li>
+<li>Identifizieren der Anforderungen an die Kapazität aus den SLR</li>
+<li>Sizing der Komponenten für neue und veränderte Services</li>
+<li>Erstellen von Kapazitätsprognosen</li>
+<li>Erstellung und Pflege des Capacity-Plans</li>
+<li>Verantwortlich für Monitoring, Analyse und Tuning</li>
+<li>Bewertung neuer Technologien und deren Relevanz</li>
+<li>Ansprechpartner für alle Fragen zu Kapazität und Performance</li>
+</ul>
 <h2 id="key-performance-indikatoren-kpi-1"><span class="header-section-number">2.5</span> Key-Performance-Indikatoren (KPI)</h2>
+<ul>
+<li>Prozentualer Anteil der korrekten Vorhersagen</li>
+<li>Zeitnaher Einsatz neuer Technologien entsprechend der Anforderungen</li>
+<li>Verhältnis vorhandener zu genutzter Kapazität</li>
+<li>Prozentuale Reduzierung von Überkapazitäten</li>
+<li>Reduzierung kapazitätsbedingter Serviceunterbrechungen</li>
+<li>Reduzierung performancebedingter Serviceunterbrechungen</li>
+<li>Reduzierung von Panikkäufen aufgrund unvorhergesehenem Kapazitätsbedarfs</li>
+</ul>
 <h2 id="herausforderungen-1"><span class="header-section-number">2.6</span> Herausforderungen</h2>
+<ul>
+<li>Voraussetzungen sind verlässliche Informationen aus dem Business bezüglich der Anforderungen an die Services und des aktuellen und zukünftigen Bedarfs.</li>
+<li>Meistens fehlt eine frühzeitige Information über mögliche Veränderungen</li>
+<li>Es gibt immer eine gewisse Unschärfe in den Kapazitätsplanungen.</li>
+<li>Die Kennzahlen müssen über eine Vielzahl von Monitoring-Tools zusammengetragen werden.</li>
+<li>Die Auswahl der geeigneten Tools zur Auswertung und des Monitoring stellt ebenfalls eine Herausforderung dar.</li>
+</ul>
 </body>
 </html>
