@@ -19,7 +19,7 @@ pandoc -s -S -N -t beamer slides/*.md -o "$output"-slides.pdf \
     -V title="$title" \
     -V author="$author" \
     -V date="$date" \
-    -V fontfamily='ebgaramond,helvet' \
+    -V classoption="aspectratio=169" \
     -V lang='de'
 
 pandoc -s -S -N -t html5 *.md -o "$output".html -c style.css \

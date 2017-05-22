@@ -30,8 +30,7 @@
 ## Aktivitäten
 
 - proaktive Tätigkeiten
-    - Planung
-        - Definition vitaler Business-Funktionen (VBF)
+    - Planung: Definition vitaler Business-Funktionen (VBF)
     - Risikomanagement
     - Reviews
 - reaktive Tätigkeiten
