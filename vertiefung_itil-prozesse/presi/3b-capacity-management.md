@@ -1,3 +1,7 @@
+% Availability- und Capacity-Management
+% Lukas Arnold und Patrick Bucher
+% 22.05.17
+
 # Capacity Management
 
 ## Ziele
@@ -5,63 +9,59 @@
 * aktuelle und zukünftige Anforderungen beachten
 * Auf Wirtschaftlichkeit achten
 
-## Begriffe
-* Capacity Management Information System (CMIS)
-    * Anforderungen des Business
-    * Informationen aus dem Demand Management (Bedarf)
-    * Ergebnisse des Monitoring von Auslastung und Performance
-    * Informationen zu aktuellen Infrastruktur
-    * Technologieinformationen
-* Capacity-Plan
-    * dient als Planungsgrundlage
-    * enthält Informationen zur aktuellen Auslastung
-    * besteht aus Optimierungsansätzen, Kostenplänen und Empfehlungen 
+## Capacity Management Information System
+* Anforderungen
+* Bedarf
+* Monitoring-Ergebnisse
+* Technologieinformationen
 
-## Aktivitäten
-* Die *Planung der Ressourcen* umfasst folgende Aufgaben: 
-    * Bereitstellung und Pflege des Capacity-Plans
-    * Unterstützung der Serviceorganisation bezüglich Kapazität und Performance
-    * Management der Kapazität und Performance entsprechend der Geschäftsanforderungen
-    * Unterstützung der Diagnose und Beseitigung kapazitätsbedingter Incidents
-    * Bewertung der Auswirkung von Changes auf den Capacity-Plan
-    * Identifizierung proaktiver Maßnahmen zur Performanceverbesserung
-    * Anforderungen an die Kapazität im CMIS dokumentieren
-    * Forecasts bezüglich Performance-Bedarf erstellen
-* Der *Zyklus* des Capacity Management bestehen aus den folgenden vier Hauptaktivitäten:
-    * *Monitoring* der aktuellen *Auslastung* und Performance-Daten
-    * *Analyse* der gesammelten Informationen in Bezug zu *Zielvorgaben* aus SLA und SLR
-    * *Identifizierung* möglicher *Massnahmen* zur Optimierung
-    * *Implementierung* der identifizierten *Optimierungsmaßnahmen*
-* Die Aktivitäten gliedern sich in *drei Subprozesse*:
-    * *Business Capacity Management* befasst sich mit der Identifikation der Geschäftsanforderungen und deren Übersetzung in konkrete Anforderungen an die IT-Services und die Infrastruktur.
-    * *Service Capacity Management* betrachtet die End-to-End-Service Performance und ist verantwortlich für das Management und die Steuerung der Service Performance sowie für Prognosen bezüglich zukünftiger Veränderungen.
-    * *Component Capacity Management* ist verantwortlich für Monitoring und Messung der Auslastung und Kapazität von IT-Komponenten sowie deren Management.
+## Capacity-Plan
+* Planungsgrundlage
+* aktuellen Auslastung
+* Optimierungsansätzen
+* Kostenplänen
+* Empfehlungen 
 
-## Rollen
-Der *Capacity Manager* trägt golgende Verantwortungen:
+## Planung der Ressourcen
+* Erstellen des Capacity-Plans
+* Unterstützung der Serviceorganisation
+* Anpassungen an die Geschäftsanforderungen
+* Beseitigung Kapazitätsprobleme
+* Bewertung von Changes
+* Identifizierung Massnahmen
+* Anforderungen dokumentieren
+* Forecasts erstellen
 
-* Sicherstellen der Kapazität entsprechend der Geschäftsanforderungen
-* Identifizieren der Anforderungen an die Kapazität aus den SLR
-* Sizing der Komponenten für neue und veränderte Services
-* Erstellen von Kapazitätsprognosen
-* Erstellung und Pflege des Capacity-Plans
+## vier Hauptaktivitäten:
+* Monitoring der Auslastung
+* Analyse der Informationen
+* Identifizierung von Massnahmen
+* Implementierung der Massnahmen
+
+## drei Subprozesse
+* Business Capacity Management
+* Service Capacity Management
+* Component Capacity Management
+
+## Capacity Manager
+* Sicherstellen der Kapazität 
+* Sizing der Komponenten 
+* Erstellt Kapazitätsprognosen
+* Pflege des Capacity-Plans
 * Monitoring, Analyse und Tuning
-* Bewertung neuer Technologien und deren Relevanz
-* Ansprechpartner für alle Fragen zu Kapazität und Performance
+* Bewertung neuer Technologien
+* Ansprechpartner für Fragen
 
 ## Key-Performance-Indikatoren (KPI)
-* Prozentualer Anteil der korrekten Vorhersagen
-* Zeitnaher Einsatz neuer Technologien entsprechend der Anforderungen
+* korrekten Vorhersagen
 * Verhältnis vorhandener zu genutzter Kapazität
-* Prozentuale Reduzierung von Überkapazitäten
-* Reduzierung kapazitätsbedingter Serviceunterbrechungen
-* Reduzierung performancebedingter Serviceunterbrechungen
-* Reduzierung von Panikkäufen aufgrund unvorhergesehenem Kapazitätsbedarfs
+* Überkapazitäten
+* Serviceunterbrechungen
+* Reduzierung von Panikkäufen
 
 ## Herausforderungen
-* Voraussetzungen sind verlässliche Informationen aus dem Business bezüglich der Anforderungen an die Services und des aktuellen und zukünftigen Bedarfs.
-* Meistens fehlt eine frühzeitige Information über mögliche Veränderungen
-* Es gibt immer eine gewisse Unschärfe in den Kapazitätsplanungen.
-* Die Kennzahlen müssen über eine Vielzahl von Monitoring-Tools zusammengetragen werden.
-* Die Auswahl der geeigneten Tools zur Auswertung und des Monitoring stellt ebenfalls eine Herausforderung dar.
+* verlässliche Informationen 
+* frühzeitige Informationen
+* Unschärfe der Zahlen
+* viele Monitoring-Tools
 
