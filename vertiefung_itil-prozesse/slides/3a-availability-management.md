@@ -66,12 +66,11 @@ Availability Manager
 
 ## Herausforderungen
 
-- Die wirklichen Geschäftsanforderungen im Bezug auf die Verfügbarkeit sind
-  schwierig aufzunehmen.
-- Es ist eine Abstimmung über alle Fachbereiche hinweg erforderlich, da die
-  Manager der einzelnen Bereiche unterschiedliche Vorstellungen haben können.
-- Der Begriff „Verfügbarkeit“ muss zunächst definiert werden:
-    - Welche Antwortzeiten und welche Funktionen sind nötig, damit der Service
-      als „verfügbar“ gilt?
-    - Wo und wie werden Verfügbarkeit und Performance gemessen?
-    - Ist eine partielle Nichtverfügbarkeit definiert? Wie?
+- Geschäftsanforderungen im Bezug auf die Verfügbarkeit schwierig aufzunehmen
+- Abstimmung über alle Fachbereiche hinweg erforderlich (unterschiedliche
+  Vorstellungen der Manager einzelner Bereiche)
+- Definition „Verfügbarkeit“
+    - Erforderliche Antwortzeiten und Funktionen, damit der Service
+      als „verfügbar“ gilt
+    - Performance-Messung: wo und wie? 
+    - partielle Nichtverfügbarkeit möglich?
