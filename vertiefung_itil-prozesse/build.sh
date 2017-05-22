@@ -15,6 +15,13 @@ pandoc -s -S -N -t latex *.md -o "$output".pdf \
     -V fontfamily='ebgaramond,helvet' \
     -V lang='de'
 
+pandoc -s -S -N -t beamer slides/*.md -o "$output"-slides.pdf \
+    -V title="$title" \
+    -V author="$author" \
+    -V date="$date" \
+    -V fontfamily='ebgaramond,helvet' \
+    -V lang='de'
+
 pandoc -s -S -N -t html5 *.md -o "$output".html -c style.css \
     -V title="$title" \
     -V author="$author" \
