@@ -3,7 +3,7 @@
 ## Ziele
 * Die richtige *Kapazität* zur richtigen *Zeit* bereitstellen.
 * Dabei aktuelle und zukünftige *Anforderungen* beachten.
-* Dabei muss vorallem auf die *Wirtschaftlichkeit* geachtete werden.
+* Dabei muss vorallem auf die *Wirtschaftlichkeit* geachtet werden.
 
 ## Begriffe
 * Das *Capacity Management Information System (CMIS)* enthält die folgenden Daten: 
@@ -12,10 +12,10 @@
     * Ergebnisse des Monitoring von Auslastung und Performance
     * Informationen zu aktuellen Infrastruktur
     * Technologieinformationen
-* Der *Capacity-Plan* ...
+* Der *Capacity-Plan*
     * dient als Planungsgrundlage
-    * enthält Informationen zu aktuellen Auslastung
-    * besteht aus Optimierungsansätze, Kostenpläne und Empfehlungen 
+    * enthält Informationen zur aktuellen Auslastung
+    * besteht aus Optimierungsansätzen, Kostenplänen und Empfehlungen 
 
 ## Aktivitäten
 * Die *Planung der Ressourcen* umfasst folgende Aufgaben: 
@@ -25,7 +25,7 @@
     * Unterstützung der Diagnose und Beseitigung kapazitätsbedingter Incidents
     * Bewertung der Auswirkung von Changes auf den Capacity-Plan
     * Identifizierung proaktiver Maßnahmen zur Performanceverbesserung
-    * Anforderungen an die Kapazität im CMIS dokumentiert
+    * Anforderungen an die Kapazität im CMIS dokumentieren
     * Forecasts bezüglich Performance-Bedarf erstellen
 * Der *Zyklus* des Capacity Management bestehen aus den folgenden vier Hauptaktivitäten:
     * *Monitoring* der aktuellen *Auslastung* und Performance-Daten
@@ -45,7 +45,7 @@ Der *Capacity Manager* trägt golgende Verantwortungen:
 * Sizing der Komponenten für neue und veränderte Services
 * Erstellen von Kapazitätsprognosen
 * Erstellung und Pflege des Capacity-Plans
-* Verantwortlich für Monitoring, Analyse und Tuning
+* Monitoring, Analyse und Tuning
 * Bewertung neuer Technologien und deren Relevanz
 * Ansprechpartner für alle Fragen zu Kapazität und Performance
 

@@ -5,15 +5,15 @@
 - Das _Verfügbarkeitsniveau_ vereinbarter Services soll gewährleistet werden.
 - Dabei geht es nicht nur um aktuelle Services, sondern auch um die _Planung_
   und _Realisierung_ zukünftiger Anforderungen.
-- Die Infrastuktur soll _effizient_ bereitgestellt werden, sodass weder Unter-
+- Die Infrastruktur soll _effizient_ bereitgestellt werden, sodass weder Unter-
   noch Überkapazitäten auftreten.
 
 ## Begriffe
 
 - Das _Availability Management Information System_ (AMIS) dient
-    - als zentrale Speicherung aller Informationen und Daten zum Availability
-      Management,
-    - und als Grundlage für die Erstellung von Berichten und als Grundlage für
+    - zur zentrale Speicherung aller Informationen und Daten zum Availability
+      Management
+    - und als Grundlage für die Erstellung von Berichten und
       Optimierungsmassnahmen.
 - Der _Availability Plan_ definiert Ziele und Massnahmen im Bezug auf die
   Verfügbarkeit. Der Zeithorizont sollte ein bis zwei Jahre betragen. Er
@@ -24,7 +24,7 @@
     - Auswirkungen geplanter neuer Services auf die Verfügbarkeit
     - Hinweise auf neue Technologien
 - Mithilfe des _erweiterten Incident Lifecycle_ sollen die Auswirkungen auf
-  Incidents (Vorfälle) auf die Serviceverfügbarkeit rezudiert werden. Relevant
+  Incidents (Vorfälle) auf die Serviceverfügbarkeit reduziert werden. Relevant
   sind folgende Messgrössen:
     - MTBF: Mean Time Between Failures (Uptime)
     - MTRS: Mean Time to Restore Service (Downtime)
@@ -52,9 +52,9 @@ Verfügbarkeitsanforderung. Die Verfügbarkeitsziele werden anhand folgender
 Grössen definiert:
 
 - High Availability: Reduktion der Fehlerauswirkungen mithilfe von Redundanz
-- Fault Tolerance: Weiterbetrieb des Services trotz Teilausfällen
+- Fault Tolerance: Weiterbetrieb des Service trotz Teilausfällen
 - Continuous Operations: Massnahmen zur Reduktion der Downtime
-- Continous Availability: Kombination von Massnahmen und Technologien zur
+- Continuous Availability: Kombination von Massnahmen und Technologien zur
   Annäherung an 100%-Verfügbarkeit
 
 ## Rollen
@@ -83,8 +83,8 @@ Der _Availability Manager_ trägt folgende Verantwortungen:
   schwierig aufzunehmen.
 - Es ist eine Abstimmung über alle Fachbereiche hinweg erforderlich, da die
   Manager der einzelnen Bereiche unterschiedliche Vorstellungen haben können.
-- Der Begriff "Verfügbarkeit" muss zunächst definiert werden:
+- Der Begriff „Verfügbarkeit“ muss zunächst definiert werden:
     - Welche Antwortzeiten und welche Funktionen sind nötig, damit der Service
-      als "verfügbar" gilt?
+      als „verfügbar“ gilt?
     - Wo und wie werden Verfügbarkeit und Performance gemessen?
     - Ist eine partielle Nichtverfügbarkeit definiert? Wie?
