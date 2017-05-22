@@ -1,7 +1,3 @@
-% Availability- und Capacity-Management
-% Lukas Arnold und Patrick Bucher
-% 22.05.17
-
 # Capacity Management
 
 ## Ziele

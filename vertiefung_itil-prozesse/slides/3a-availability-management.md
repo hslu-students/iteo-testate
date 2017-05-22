@@ -2,24 +2,15 @@
 
 ## Ziele
 
-- Verfügbarkeitsniveau gewährleistet
-- aktuelle Services; Planung und Realisierung zukünftiger Anforderungen
-- effiziente Bereitstellung der Infrastruktur (weder Unter- noch
-  Überkapazitäten)
+- Gewährleistung Verfügbarkeitsniveau
+- Planung und Realisierung zukünftiger Anforderungen
+- Effiziente Bereitstellung der Infrastruktur
 
 ## Begriffe
 
 - Availability Management Information System (AMIS)
-    - zentrale Speicherung aller Informationen und Daten 
-    - Grundlage für Berichte und Optimierungsmassnahmen
 - Availability Plan: Ziele und Massnahmen
-    - vereinbarte Verfügbarkeit/tatsächliche Verfügbarkeit
-    - Massnahmen zur Verbesserung der Verfügbarkeit
-    - Bewertungen erwarteter Änderungen auf die Verfügbarkeit
-    - Auswirkungen geplanter Services auf die Verfügbarkeit
-    - Hinweise auf neue Technologien
-- Incident Lifecycle: Auswirkungen von Incidents auf Serviceverfügbarkeit
-  reduzieren
+- Erweiterter Incident Lifecycle
     - MTBF: Mean Time Between Failures (Uptime)
     - MTRS: Mean Time to Restore Service (Downtime)
     - MTBSI: Mean Time Between System Incidents
@@ -39,20 +30,19 @@
     - Untersuchung von Serviceunterbrechungen
     - Dokumentation (AMIS)
 - Definition Verfügbarkeitsziele
-    - High Availability: Reduktion der Fehlerauswirkungen mithilfe von Redundanz
-    - Fault Tolerance: Weiterbetrieb des Service trotz Teilausfällen
-    - Continuous Operations: Massnahmen zur Downtime-Reduktion
-    - Continuous Availability: Massnahmen/Technologien zur  Annäherung 100%-Verfügbarkeit
+    - High Availability
+    - Fault Tolerance
+    - Continuous Operations
+    - Continuous Availability
 
 ## Rollen
 
 Availability Manager
 
 - Sicherstellen vereinbarter Servicequalität
-- Planung der Verfügbarkeit neuer und veränderter Services
-- Unterstützung bei der Diagnose bei Vorfällen mit Bezug auf die Verfügbarkeit
-- Bestimmung der Anforderungen neuer Komponenten bezüglich Zuverlässigkeit,
-  Wartbarkeit und Servicefähigkeit
+- Planung der Verfügbarkeit
+- Unterstützung bei der Diagnose
+- Bestimmung der Anforderungen
 - Monitoring der aktuellen Verfügbarkeit
 
 ## Key-Performance-Indikatoren (KPI)
@@ -66,11 +56,9 @@ Availability Manager
 
 ## Herausforderungen
 
-- Geschäftsanforderungen im Bezug auf die Verfügbarkeit schwierig aufzunehmen
-- Abstimmung über alle Fachbereiche hinweg erforderlich (unterschiedliche
-  Vorstellungen der Manager einzelner Bereiche)
+- Geschäftsanforderungen bezüglich Verfügbarkeit schwierig aufzunehmen
+- Abstimmung über Fachbereiche hinweg
 - Definition „Verfügbarkeit“
-    - Erforderliche Antwortzeiten und Funktionen, damit der Service
-      als „verfügbar“ gilt
+    - Erforderliche Antwortzeiten und Funktionen
     - Performance-Messung: wo und wie? 
     - partielle Nichtverfügbarkeit möglich?
